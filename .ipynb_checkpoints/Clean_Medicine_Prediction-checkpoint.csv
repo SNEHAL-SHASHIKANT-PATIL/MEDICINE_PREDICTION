@@ -1,0 +1,594 @@
+,ID,Age,Gender,Symptoms,Duration,Disease,Medicine Given
+0,1,5.0,Male,"stomach pain, sweating",5 days,Dengue,"Paracetamol, Fluids"
+1,2,30.0,Other,"stomach pain, cough, vomiting",Months,Heart Attack,"Aspirin, Nitroglycerin"
+2,5,1.0,Female,"sweating, nausea, fever, stomach pain",2 days,Alzheimer,Donepezil
+3,7,51.0,Other,"body pain, itchy eyes, stomach pain",2 days,Allergy,Cetirizine
+4,8,45.0,Male,"thirst, sneezing, fatigue",1 hour,Indigestion,"Antacid, ORS"
+5,9,50.0,Female,"itchy eyes, sneezing, cough",Months,Allergy,Cetirizine
+6,10,26.0,Male,"vomiting, body pain",2 days,Dengue,"Paracetamol, Fluids"
+7,11,63.0,Female,"sweating, rash, fever, sneezing",1 hour,Allergy,Cetirizine
+8,12,24.0,Female,"fatigue, joint pain, high sugar, thirst",4 days,Allergy,Cetirizine
+9,13,66.0,Female,"forgetfulness, sore throat",4 days,Food Poisoning,"ORS, Domperidone"
+10,14,37.0,Other,"itchy eyes, sweating, nausea",Months,Chikungunya,Paracetamol
+11,15,26.0,Other,"cough, sore throat, stomach pain",1 day,Allergy,Cetirizine
+12,16,29.0,Other,"chest pain, confusion",1 day,Diabetes,Metformin
+13,17,48.0,Other,"headache, sneezing, sweating",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+14,18,34.0,Other,"body pain, thirst, itchy eyes, nausea",5 days,Allergy,Cetirizine
+15,19,5.0,Female,"cough, fatigue, chest pain",Months,Heart Attack,"Aspirin, Nitroglycerin"
+16,20,43.0,Male,"sweating, high sugar, vomiting, cough",2 days,Flu,"Paracetamol, Cough Syrup"
+17,21,76.0,Male,"thirst, nausea, sweating, itchy eyes",3 days,Allergy,Cetirizine
+18,22,3.0,Male,"cough, headache",Months,Food Poisoning,"ORS, Domperidone"
+19,23,51.0,Female,"sneezing, rash",Months,Indigestion,"Antacid, ORS"
+20,24,13.0,Male,"nausea, cough, forgetfulness",Months,Alzheimer,Donepezil
+21,25,3.0,Female,"sore throat, rash, thirst, confusion",1 week,Diabetes,Metformin
+22,26,74.0,Male,"itchy eyes, fatigue, fever, vomiting",4 days,Cold,"Cough Syrup, Antihistamine"
+23,27,43.0,Other,"high sugar, confusion, stomach pain, fever",2 days,Chikungunya,Paracetamol
+24,28,63.0,Male,"stomach pain, headache",1 week,Diabetes,Metformin
+25,31,36.0,Female,"fever, sneezing, confusion",5 days,Allergy,Cetirizine
+26,32,83.0,Female,"vomiting, itchy eyes, joint pain, confusion",Months,Diabetes,Metformin
+27,33,54.0,Male,"stomach pain, rash, itchy eyes",2 days,Flu,"Paracetamol, Cough Syrup"
+28,34,71.0,Male,"body pain, fatigue, nausea, high sugar",1 day,Allergy,Cetirizine
+29,35,9.0,Female,"headache, vomiting, joint pain",5 days,Alzheimer,Donepezil
+30,36,57.0,Other,"fatigue, itchy eyes, joint pain, stomach pain",Months,Cold,"Cough Syrup, Antihistamine"
+31,37,4.0,Other,"sweating, headache, thirst, body pain",4 days,Flu,"Paracetamol, Cough Syrup"
+32,38,39.0,Female,"body pain, rash, thirst",2 days,Chikungunya,Paracetamol
+33,39,25.0,Male,"confusion, forgetfulness",Months,Alzheimer,Donepezil
+34,40,16.0,Other,"rash, nausea, stomach pain, cough",3 days,Chikungunya,Paracetamol
+35,41,3.0,Other,"high sugar, chest pain, sweating, fatigue",2 weeks,Indigestion,"Antacid, ORS"
+36,42,45.0,Other,"stomach pain, rash, fatigue",1 day,Food Poisoning,"ORS, Domperidone"
+37,43,43.0,Female,"joint pain, cough, sweating",5 days,Indigestion,"Antacid, ORS"
+38,45,53.0,Female,"headache, forgetfulness",2 days,Indigestion,"Antacid, ORS"
+39,46,43.0,Male,"sweating, stomach pain",1 week,Flu,"Paracetamol, Cough Syrup"
+40,48,78.0,Female,"vomiting, stomach pain",3 days,Alzheimer,Donepezil
+41,49,43.0,Male,"nausea, sweating, fatigue, forgetfulness",unknown Duration,Dengue,"Paracetamol, Fluids"
+42,50,34.0,Other,"sore throat, body pain, itchy eyes, joint pain",4 days,Flu,"Paracetamol, Cough Syrup"
+43,51,57.0,Male,"confusion, joint pain",1 hour,Food Poisoning,"ORS, Domperidone"
+44,52,40.0,Female,"sweating, rash, itchy eyes, confusion",2 weeks,Indigestion,"Antacid, ORS"
+45,53,50.0,Other,"rash, nausea",1 hour,Alzheimer,Donepezil
+46,54,24.0,Other,"cough, confusion",1 hour,Flu,"Paracetamol, Cough Syrup"
+47,55,85.0,Male,"rash, headache, sneezing",2 weeks,Allergy,Cetirizine
+48,56,26.0,Female,"sweating, chest pain, fever",5 days,Food Poisoning,"ORS, Domperidone"
+49,58,27.0,Other,"body pain, chest pain, headache, nausea",2 weeks,Diabetes,Metformin
+50,59,68.0,Female,"fatigue, vomiting, joint pain, sweating",2 weeks,Allergy,Cetirizine
+51,60,3.0,Female,"nausea, rash, joint pain",2 days,Food Poisoning,"ORS, Domperidone"
+52,61,76.0,Female,"fatigue, confusion, nausea, vomiting",2 weeks,Flu,"Paracetamol, Cough Syrup"
+53,63,20.0,Female,"confusion, thirst",1 day,Chikungunya,Paracetamol
+54,64,77.0,Male,"sneezing, vomiting, sore throat, nausea",Months,Indigestion,"Antacid, ORS"
+55,65,64.0,Other,"fever, joint pain, body pain, sneezing",4 days,Diabetes,Metformin
+56,67,30.0,Male,"chest pain, sneezing, body pain, thirst",5 days,Alzheimer,Donepezil
+57,68,8.0,Other,"rash, fatigue, chest pain, headache",3 days,Flu,"Paracetamol, Cough Syrup"
+58,70,63.0,Female,"fatigue, body pain, sweating, itchy eyes",1 day,Indigestion,"Antacid, ORS"
+59,71,44.0,Other,"stomach pain, cough, body pain",1 day,Diabetes,Metformin
+60,72,17.0,Other,"sweating, itchy eyes, chest pain, thirst",1 hour,Diabetes,Metformin
+61,73,7.0,Other,"high sugar, sneezing",1 week,Chikungunya,Paracetamol
+62,74,69.0,Other,"body pain, fatigue, joint pain",1 week,Dengue,"Paracetamol, Fluids"
+63,75,77.0,Other,"joint pain, sneezing",unknown Duration,Heart Attack,"Aspirin, Nitroglycerin"
+64,76,85.0,Female,"confusion, fever, nausea",3 days,Dengue,"Paracetamol, Fluids"
+65,78,12.0,Female,"high sugar, sweating, cough",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+66,81,50.0,Other,"nausea, fever, fatigue, vomiting",1 day,Heart Attack,"Aspirin, Nitroglycerin"
+67,82,62.0,Other,"stomach pain, nausea, fever, confusion",Months,Flu,"Paracetamol, Cough Syrup"
+68,83,1.0,Male,"thirst, sneezing, cough",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+69,84,39.0,Female,"body pain, sneezing, sweating, thirst",1 hour,Dengue,"Paracetamol, Fluids"
+70,85,43.0,Other,"headache, itchy eyes",1 week,Dengue,"Paracetamol, Fluids"
+71,86,25.0,Female,"headache, thirst",2 days,Alzheimer,Donepezil
+72,87,78.0,Other,"itchy eyes, sweating, confusion, forgetfulness",3 days,Chikungunya,Paracetamol
+73,88,57.0,Other,"headache, itchy eyes, forgetfulness, rash",3 days,Indigestion,"Antacid, ORS"
+74,89,76.0,Male,"body pain, fatigue",Months,Flu,"Paracetamol, Cough Syrup"
+75,90,29.0,Female,"cough, sore throat, chest pain, rash",2 days,Dengue,"Paracetamol, Fluids"
+76,91,56.0,Male,"rash, fatigue, itchy eyes",1 day,Cold,"Cough Syrup, Antihistamine"
+77,92,65.0,Other,"thirst, sore throat, vomiting, sneezing",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+78,93,71.0,Male,"vomiting, joint pain",5 days,Food Poisoning,"ORS, Domperidone"
+79,94,44.0,Other,"sore throat, sneezing, body pain",1 day,Indigestion,"Antacid, ORS"
+80,95,56.0,Male,"forgetfulness, chest pain",unknown Duration,Dengue,"Paracetamol, Fluids"
+81,96,47.0,Male,"rash, stomach pain, nausea",5 days,Flu,"Paracetamol, Cough Syrup"
+82,97,86.0,Female,"thirst, itchy eyes, high sugar, forgetfulness",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+83,98,16.0,Female,"itchy eyes, confusion, high sugar",2 days,Cold,"Cough Syrup, Antihistamine"
+84,99,61.0,Male,"fever, rash",2 weeks,Dengue,"Paracetamol, Fluids"
+85,100,71.0,Female,"vomiting, cough",1 hour,Allergy,Cetirizine
+86,102,58.0,Male,"confusion, forgetfulness, sneezing, fatigue",Months,Allergy,Cetirizine
+87,103,69.0,Male,"itchy eyes, chest pain, vomiting, sweating",1 week,Allergy,Cetirizine
+88,104,42.0,Other,"confusion, rash, joint pain, body pain",1 week,Cold,"Cough Syrup, Antihistamine"
+89,105,20.0,Other,"sneezing, forgetfulness, stomach pain",2 weeks,Alzheimer,Donepezil
+90,106,3.0,Male,"stomach pain, thirst, fever, cough",1 week,Indigestion,"Antacid, ORS"
+91,107,4.0,Female,"headache, sore throat",2 weeks,Dengue,"Paracetamol, Fluids"
+92,108,26.0,Male,"joint pain, fatigue, vomiting, sneezing",4 days,Cold,"Cough Syrup, Antihistamine"
+93,109,42.0,Male,"body pain, headache, high sugar",3 days,Food Poisoning,"ORS, Domperidone"
+94,110,73.0,Male,"headache, high sugar",1 day,Diabetes,Metformin
+95,111,2.0,Female,"high sugar, sweating, sneezing",2 days,Dengue,"Paracetamol, Fluids"
+96,112,78.0,Other,"joint pain, chest pain, fever, confusion",2 days,Allergy,Cetirizine
+97,113,46.0,Female,"rash, headache, body pain",2 weeks,Food Poisoning,"ORS, Domperidone"
+98,114,69.0,Male,"vomiting, fatigue, sneezing, thirst",1 day,Chikungunya,Paracetamol
+99,115,80.0,Female,"stomach pain, cough, headache",5 days,Flu,"Paracetamol, Cough Syrup"
+100,116,68.0,Male,"chest pain, joint pain, body pain, thirst",1 day,Cold,"Cough Syrup, Antihistamine"
+101,117,1.0,Other,"sore throat, fever",4 days,Alzheimer,Donepezil
+102,118,71.0,Other,"thirst, fatigue, vomiting",4 days,Chikungunya,Paracetamol
+103,119,81.0,Other,"body pain, forgetfulness",4 days,Chikungunya,Paracetamol
+104,120,74.0,Female,"body pain, cough, forgetfulness",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+105,121,52.0,Other,"sweating, nausea, thirst, rash",2 days,Allergy,Cetirizine
+106,122,25.0,Male,"confusion, headache",unknown Duration,Flu,"Paracetamol, Cough Syrup"
+107,123,85.0,Male,"headache, stomach pain",3 days,Allergy,Cetirizine
+108,124,35.0,Other,"high sugar, sneezing, fatigue",2 days,Cold,"Cough Syrup, Antihistamine"
+109,125,2.0,Female,"forgetfulness, thirst, fever",1 hour,Allergy,Cetirizine
+110,126,26.0,Female,"itchy eyes, nausea, sore throat",3 days,Chikungunya,Paracetamol
+111,127,68.0,Male,"high sugar, rash, body pain, itchy eyes",4 days,Allergy,Cetirizine
+112,128,41.0,Male,"cough, rash",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+113,129,47.0,Male,"joint pain, body pain",Months,Food Poisoning,"ORS, Domperidone"
+114,130,32.0,Other,"confusion, vomiting, sneezing",Months,Flu,"Paracetamol, Cough Syrup"
+115,131,33.0,Male,"chest pain, cough",1 week,Flu,"Paracetamol, Cough Syrup"
+116,132,56.0,Other,"thirst, stomach pain, headache",4 days,Food Poisoning,"ORS, Domperidone"
+117,134,66.0,Other,"sneezing, fever, chest pain, thirst",3 days,Diabetes,Metformin
+118,135,10.0,Other,"headache, vomiting, itchy eyes",4 days,Allergy,Cetirizine
+119,136,2.0,Male,"nausea, stomach pain, fatigue, thirst",4 days,Diabetes,Metformin
+120,137,46.0,Male,"forgetfulness, chest pain, vomiting, confusion",3 days,Alzheimer,Donepezil
+121,138,57.0,Other,"rash, sneezing",unknown Duration,Diabetes,Metformin
+122,139,33.0,Other,"joint pain, rash, body pain, thirst",2 weeks,Flu,"Paracetamol, Cough Syrup"
+123,140,25.0,Other,"joint pain, high sugar",2 days,Flu,"Paracetamol, Cough Syrup"
+124,141,4.0,Female,"joint pain, nausea",2 days,Food Poisoning,"ORS, Domperidone"
+125,142,50.0,Male,"stomach pain, cough, rash, joint pain",5 days,Alzheimer,Donepezil
+126,145,12.0,Other,"sneezing, rash, forgetfulness, cough",1 hour,Diabetes,Metformin
+127,146,36.0,Other,"confusion, stomach pain",1 day,Heart Attack,"Aspirin, Nitroglycerin"
+128,147,3.0,Female,"itchy eyes, sneezing, joint pain",4 days,Diabetes,Metformin
+129,148,84.0,Female,"forgetfulness, nausea, cough",1 hour,Cold,"Cough Syrup, Antihistamine"
+130,149,72.0,Other,"vomiting, stomach pain, body pain",5 days,Allergy,Cetirizine
+131,150,56.0,Male,"thirst, vomiting, rash",4 days,Food Poisoning,"ORS, Domperidone"
+132,151,43.0,Female,"fatigue, headache",1 day,Chikungunya,Paracetamol
+133,152,49.0,Female,"joint pain, cough, chest pain",1 hour,Cold,"Cough Syrup, Antihistamine"
+134,153,43.0,Female,"sweating, forgetfulness, cough, confusion",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+135,154,1.0,Female,"body pain, stomach pain, vomiting, headache",1 day,Flu,"Paracetamol, Cough Syrup"
+136,155,18.0,Other,"fever, nausea, stomach pain, thirst",5 days,Chikungunya,Paracetamol
+137,156,27.0,Female,"high sugar, stomach pain, nausea, itchy eyes",1 day,Cold,"Cough Syrup, Antihistamine"
+138,157,43.0,Male,"high sugar, nausea, chest pain, sneezing",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+139,158,87.0,Other,"rash, vomiting",2 weeks,Cold,"Cough Syrup, Antihistamine"
+140,160,81.0,Female,"sweating, fever",1 day,Chikungunya,Paracetamol
+141,162,35.0,Other,"joint pain, fever, rash, high sugar",Months,Indigestion,"Antacid, ORS"
+142,163,72.0,Other,"itchy eyes, high sugar",Months,Food Poisoning,"ORS, Domperidone"
+143,164,61.0,Female,"itchy eyes, fatigue, nausea, joint pain",5 days,Indigestion,"Antacid, ORS"
+144,165,48.0,Other,"stomach pain, fatigue, itchy eyes, sore throat",5 days,Cold,"Cough Syrup, Antihistamine"
+145,166,22.0,Other,"forgetfulness, sweating",2 days,Dengue,"Paracetamol, Fluids"
+146,167,13.0,Other,"forgetfulness, sore throat, sneezing, joint pain",2 weeks,Allergy,Cetirizine
+147,168,59.0,Other,"fever, joint pain, nausea",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+148,169,54.0,Other,"headache, itchy eyes, rash",1 week,Flu,"Paracetamol, Cough Syrup"
+149,170,39.0,Other,"nausea, fatigue, rash, stomach pain",1 week,Cold,"Cough Syrup, Antihistamine"
+150,171,5.0,Male,"itchy eyes, sneezing, fatigue",Months,Alzheimer,Donepezil
+151,172,26.0,Female,"fatigue, rash, sneezing",3 days,Chikungunya,Paracetamol
+152,173,70.0,Other,"vomiting, fever, fatigue",2 days,Food Poisoning,"ORS, Domperidone"
+153,175,85.0,Female,"fatigue, cough",1 hour,Indigestion,"Antacid, ORS"
+154,176,25.0,Other,"headache, high sugar, body pain, sneezing",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+155,177,19.0,Other,"forgetfulness, stomach pain, cough",1 week,Indigestion,"Antacid, ORS"
+156,178,43.0,Male,"confusion, fatigue, high sugar",1 hour,Dengue,"Paracetamol, Fluids"
+157,179,68.0,Other,"confusion, chest pain",Months,Allergy,Cetirizine
+158,180,48.0,Female,"nausea, sore throat",3 days,Diabetes,Metformin
+159,181,29.0,Other,"sweating, cough, sore throat, headache",1 hour,Cold,"Cough Syrup, Antihistamine"
+160,182,18.0,Male,"rash, thirst, nausea, fatigue",3 days,Indigestion,"Antacid, ORS"
+161,183,28.0,Other,"forgetfulness, fever, stomach pain, vomiting",1 week,Dengue,"Paracetamol, Fluids"
+162,184,31.0,Other,"sneezing, forgetfulness",2 weeks,Alzheimer,Donepezil
+163,186,55.0,Male,"sweating, high sugar, thirst",5 days,Diabetes,Metformin
+164,187,84.0,Other,"sneezing, sweating",3 days,Dengue,"Paracetamol, Fluids"
+165,188,2.0,Male,"cough, itchy eyes, headache, joint pain",5 days,Alzheimer,Donepezil
+166,189,78.0,Other,"chest pain, thirst, rash",unknown Duration,Flu,"Paracetamol, Cough Syrup"
+167,190,83.0,Male,"chest pain, body pain, thirst",4 days,Chikungunya,Paracetamol
+168,191,34.0,Female,"confusion, sweating, joint pain, nausea",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+169,192,49.0,Other,"stomach pain, fatigue, sweating, nausea",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+170,193,54.0,Other,"chest pain, itchy eyes, stomach pain",2 days,Cold,"Cough Syrup, Antihistamine"
+171,195,43.0,Female,"forgetfulness, vomiting",Months,Dengue,"Paracetamol, Fluids"
+172,196,61.0,Male,"fever, cough, sneezing",unknown Duration,Dengue,"Paracetamol, Fluids"
+173,197,59.0,Female,"stomach pain, fever, nausea, high sugar",4 days,Dengue,"Paracetamol, Fluids"
+174,198,4.0,Male,"itchy eyes, fever, nausea, chest pain",1 hour,Food Poisoning,"ORS, Domperidone"
+175,199,57.0,Other,"chest pain, headache, sweating, forgetfulness",5 days,Diabetes,Metformin
+176,200,28.0,Male,"joint pain, nausea, forgetfulness, sore throat",1 hour,Dengue,"Paracetamol, Fluids"
+177,201,16.0,Male,"joint pain, confusion, headache",1 hour,Alzheimer,Donepezil
+178,202,62.0,Male,"headache, high sugar, fatigue",3 days,Diabetes,Metformin
+179,204,16.0,Other,"confusion, fatigue, joint pain",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+180,205,55.0,Female,"stomach pain, nausea",5 days,Alzheimer,Donepezil
+181,206,16.0,Male,"joint pain, itchy eyes",2 days,Dengue,"Paracetamol, Fluids"
+182,207,16.0,Other,"fatigue, rash",Months,Allergy,Cetirizine
+183,209,79.0,Other,"nausea, forgetfulness",4 days,Diabetes,Metformin
+184,210,29.0,Male,"rash, high sugar, vomiting, sore throat",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+185,211,43.0,Male,"headache, rash, forgetfulness",2 weeks,Allergy,Cetirizine
+186,212,43.0,Other,"forgetfulness, joint pain",1 day,Allergy,Cetirizine
+187,213,60.0,Other,"confusion, joint pain",2 days,Chikungunya,Paracetamol
+188,214,5.0,Male,"nausea, confusion",2 days,Alzheimer,Donepezil
+189,215,44.0,Female,"chest pain, sneezing, body pain",3 days,Flu,"Paracetamol, Cough Syrup"
+190,216,37.0,Other,"chest pain, stomach pain, cough, nausea",3 days,Food Poisoning,"ORS, Domperidone"
+191,217,68.0,Male,"headache, vomiting, sneezing",1 day,Diabetes,Metformin
+192,218,28.0,Male,"high sugar, fever, sneezing, stomach pain",Months,Food Poisoning,"ORS, Domperidone"
+193,219,41.0,Male,"sweating, cough",Months,Dengue,"Paracetamol, Fluids"
+194,220,43.0,Male,"itchy eyes, nausea",1 day,Chikungunya,Paracetamol
+195,221,69.0,Male,"itchy eyes, sweating, sore throat",1 day,Dengue,"Paracetamol, Fluids"
+196,222,19.0,Female,"nausea, joint pain, sneezing",3 days,Allergy,Cetirizine
+197,223,43.0,Female,"vomiting, nausea, sore throat, joint pain",4 days,Alzheimer,Donepezil
+198,224,38.0,Other,"high sugar, joint pain",4 days,Dengue,"Paracetamol, Fluids"
+199,225,84.0,Female,"nausea, cough",2 days,Food Poisoning,"ORS, Domperidone"
+200,226,44.0,Male,"headache, rash, joint pain",1 hour,Allergy,Cetirizine
+201,227,5.0,Male,"body pain, fatigue, sneezing",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+202,228,24.0,Male,"high sugar, itchy eyes, headache, confusion",1 week,Alzheimer,Donepezil
+203,229,25.0,Male,"forgetfulness, joint pain, fever, sore throat",3 days,Cold,"Cough Syrup, Antihistamine"
+204,230,49.0,Male,"stomach pain, confusion, itchy eyes, fatigue",1 week,Diabetes,Metformin
+205,231,60.0,Other,"fever, high sugar, headache, rash",3 days,Cold,"Cough Syrup, Antihistamine"
+206,232,66.0,Male,"sore throat, headache",2 weeks,Indigestion,"Antacid, ORS"
+207,234,46.0,Other,"confusion, nausea, sweating, stomach pain",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+208,235,49.0,Female,"nausea, fatigue, fever",2 days,Flu,"Paracetamol, Cough Syrup"
+209,236,77.0,Male,"nausea, vomiting",2 days,Flu,"Paracetamol, Cough Syrup"
+210,237,9.0,Female,"thirst, high sugar",Months,Food Poisoning,"ORS, Domperidone"
+211,238,21.0,Male,"chest pain, sneezing, vomiting, cough",1 day,Alzheimer,Donepezil
+212,239,66.0,Female,"forgetfulness, headache, body pain, itchy eyes",1 week,Food Poisoning,"ORS, Domperidone"
+213,240,35.0,Female,"fever, fatigue",unknown Duration,Allergy,Cetirizine
+214,242,43.0,Female,"fatigue, high sugar, headache",Months,Allergy,Cetirizine
+215,243,67.0,Female,"high sugar, sore throat, itchy eyes",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+216,244,19.0,Male,"vomiting, cough, sneezing, high sugar",2 weeks,Food Poisoning,"ORS, Domperidone"
+217,245,3.0,Female,"rash, chest pain, confusion, cough",1 day,Flu,"Paracetamol, Cough Syrup"
+218,247,82.0,Other,"high sugar, chest pain, sweating, thirst",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+219,248,43.0,Female,"high sugar, headache, sweating, rash",1 week,Dengue,"Paracetamol, Fluids"
+220,249,67.0,Other,"cough, thirst, sweating",1 hour,Dengue,"Paracetamol, Fluids"
+221,250,43.0,Female,"rash, fatigue",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+222,251,85.0,Other,"vomiting, nausea, joint pain, chest pain",1 hour,Allergy,Cetirizine
+223,252,38.0,Other,"high sugar, joint pain, thirst",1 day,Food Poisoning,"ORS, Domperidone"
+224,253,58.0,Other,"chest pain, sneezing, itchy eyes",2 days,Diabetes,Metformin
+225,254,42.0,Male,"stomach pain, headache, sneezing, forgetfulness",3 days,Flu,"Paracetamol, Cough Syrup"
+226,255,43.0,Female,"forgetfulness, body pain, vomiting",Months,Flu,"Paracetamol, Cough Syrup"
+227,256,63.0,Other,"itchy eyes, sneezing",2 days,Allergy,Cetirizine
+228,257,62.0,Male,"cough, nausea",2 days,Indigestion,"Antacid, ORS"
+229,258,21.0,Female,"chest pain, cough",1 hour,Food Poisoning,"ORS, Domperidone"
+230,259,42.0,Male,"body pain, chest pain",Months,Chikungunya,Paracetamol
+231,260,37.0,Other,"forgetfulness, sore throat",2 days,Food Poisoning,"ORS, Domperidone"
+232,261,51.0,Other,"headache, cough, fatigue",Months,Chikungunya,Paracetamol
+233,262,2.0,Female,"headache, confusion",2 days,Alzheimer,Donepezil
+234,264,60.0,Male,"forgetfulness, sneezing",5 days,Alzheimer,Donepezil
+235,266,32.0,Female,"rash, cough, thirst, sweating",1 week,Diabetes,Metformin
+236,267,20.0,Female,"nausea, itchy eyes, thirst, forgetfulness",Months,Food Poisoning,"ORS, Domperidone"
+237,268,77.0,Male,"body pain, cough, joint pain",1 week,Cold,"Cough Syrup, Antihistamine"
+238,269,86.0,Female,"forgetfulness, itchy eyes",4 days,Dengue,"Paracetamol, Fluids"
+239,270,30.0,Female,"high sugar, vomiting, sweating",1 hour,Food Poisoning,"ORS, Domperidone"
+240,271,57.0,Female,"body pain, vomiting",5 days,Flu,"Paracetamol, Cough Syrup"
+241,272,4.0,Female,"sore throat, forgetfulness, rash, body pain",1 hour,Dengue,"Paracetamol, Fluids"
+242,273,65.0,Male,"fatigue, chest pain, joint pain, itchy eyes",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+243,274,68.0,Male,"cough, itchy eyes, chest pain",2 weeks,Alzheimer,Donepezil
+244,275,49.0,Male,"headache, forgetfulness, fever, sore throat",5 days,Diabetes,Metformin
+245,276,44.0,Other,"cough, stomach pain, joint pain, sweating",4 days,Dengue,"Paracetamol, Fluids"
+246,277,72.0,Other,"confusion, cough",1 day,Chikungunya,Paracetamol
+247,278,46.0,Male,"thirst, itchy eyes, joint pain",3 days,Indigestion,"Antacid, ORS"
+248,279,27.0,Male,"vomiting, headache",1 day,Dengue,"Paracetamol, Fluids"
+249,280,38.0,Female,"headache, vomiting, sweating, nausea",2 days,Food Poisoning,"ORS, Domperidone"
+250,281,65.0,Male,"confusion, forgetfulness, sore throat",2 weeks,Allergy,Cetirizine
+251,282,5.0,Male,"cough, vomiting, headache",4 days,Chikungunya,Paracetamol
+252,283,21.0,Male,"itchy eyes, rash",4 days,Cold,"Cough Syrup, Antihistamine"
+253,284,35.0,Male,"headache, high sugar",5 days,Food Poisoning,"ORS, Domperidone"
+254,285,86.0,Other,"sweating, forgetfulness, body pain, headache",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+255,286,6.0,Other,"vomiting, fever, joint pain, body pain",3 days,Allergy,Cetirizine
+256,287,6.0,Female,"joint pain, forgetfulness",1 week,Alzheimer,Donepezil
+257,288,5.0,Female,"thirst, sweating, high sugar, sore throat",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+258,291,53.0,Female,"joint pain, stomach pain, nausea",4 days,Food Poisoning,"ORS, Domperidone"
+259,292,87.0,Male,"body pain, nausea, fatigue",4 days,Cold,"Cough Syrup, Antihistamine"
+260,293,9.0,Female,"vomiting, headache",Months,Chikungunya,Paracetamol
+261,294,57.0,Female,"forgetfulness, vomiting, chest pain",2 days,Indigestion,"Antacid, ORS"
+262,295,15.0,Male,"headache, sore throat, itchy eyes",1 week,Diabetes,Metformin
+263,296,8.0,Male,"itchy eyes, body pain, headache",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+264,297,23.0,Male,"sneezing, stomach pain",1 hour,Flu,"Paracetamol, Cough Syrup"
+265,298,58.0,Female,"headache, sweating, vomiting",1 week,Indigestion,"Antacid, ORS"
+266,299,51.0,Male,"rash, sweating, thirst",2 days,Cold,"Cough Syrup, Antihistamine"
+267,300,8.0,Female,"headache, vomiting, nausea, sore throat",2 days,Flu,"Paracetamol, Cough Syrup"
+268,301,10.0,Male,"sweating, fatigue, nausea",unknown Duration,Flu,"Paracetamol, Cough Syrup"
+269,302,49.0,Male,"fever, sneezing",1 day,Flu,"Paracetamol, Cough Syrup"
+270,303,85.0,Male,"vomiting, itchy eyes, nausea",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+271,305,7.0,Other,"cough, confusion, rash",Months,Diabetes,Metformin
+272,306,31.0,Other,"sweating, stomach pain, confusion, fever",1 hour,Indigestion,"Antacid, ORS"
+273,307,9.0,Male,"cough, headache, sore throat, confusion",3 days,Dengue,"Paracetamol, Fluids"
+274,308,54.0,Female,"headache, fever, cough, vomiting",5 days,Cold,"Cough Syrup, Antihistamine"
+275,309,22.0,Male,"sneezing, body pain",2 days,Heart Attack,"Aspirin, Nitroglycerin"
+276,310,36.0,Female,"chest pain, forgetfulness",2 weeks,Allergy,Cetirizine
+277,311,2.0,Male,"joint pain, rash, itchy eyes",3 days,Food Poisoning,"ORS, Domperidone"
+278,312,13.0,Male,"headache, sneezing, fever",1 week,Dengue,"Paracetamol, Fluids"
+279,313,64.0,Female,"sweating, thirst",3 days,Diabetes,Metformin
+280,314,16.0,Male,"chest pain, fever",3 days,Allergy,Cetirizine
+281,315,24.0,Female,"chest pain, itchy eyes, fever, sneezing",5 days,Chikungunya,Paracetamol
+282,316,70.0,Other,"vomiting, stomach pain",5 days,Allergy,Cetirizine
+283,317,42.0,Female,"fever, nausea, sneezing",1 hour,Diabetes,Metformin
+284,318,9.0,Other,"fever, sweating, sneezing, nausea",2 days,Allergy,Cetirizine
+285,319,1.0,Male,"fever, stomach pain",2 weeks,Allergy,Cetirizine
+286,320,33.0,Other,"chest pain, stomach pain, joint pain, itchy eyes",Months,Diabetes,Metformin
+287,321,43.0,Male,"sore throat, fatigue",2 days,Flu,"Paracetamol, Cough Syrup"
+288,322,75.0,Male,"forgetfulness, sweating",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+289,323,18.0,Other,"sweating, confusion, headache, thirst",1 hour,Chikungunya,Paracetamol
+290,324,12.0,Female,"nausea, fatigue",1 hour,Chikungunya,Paracetamol
+291,325,41.0,Female,"cough, vomiting, sneezing",1 hour,Diabetes,Metformin
+292,326,43.0,Male,"sweating, stomach pain, thirst",5 days,Dengue,"Paracetamol, Fluids"
+293,327,74.0,Female,"thirst, high sugar, sore throat",4 days,Alzheimer,Donepezil
+294,328,26.0,Other,"fever, sweating",5 days,Indigestion,"Antacid, ORS"
+295,329,54.0,Other,"sore throat, fatigue, stomach pain, sneezing",1 hour,Cold,"Cough Syrup, Antihistamine"
+296,330,33.0,Female,"forgetfulness, cough, high sugar",unknown Duration,Alzheimer,Donepezil
+297,331,71.0,Female,"chest pain, rash, sweating",1 hour,Indigestion,"Antacid, ORS"
+298,332,3.0,Other,"chest pain, sweating, rash, sore throat",5 days,Diabetes,Metformin
+299,333,28.0,Other,"high sugar, confusion",4 days,Food Poisoning,"ORS, Domperidone"
+300,334,29.0,Male,"thirst, itchy eyes, fever, sore throat",1 week,Diabetes,Metformin
+301,335,26.0,Other,"rash, high sugar, joint pain",1 hour,Cold,"Cough Syrup, Antihistamine"
+302,336,77.0,Female,"fatigue, joint pain, stomach pain, itchy eyes",2 days,Allergy,Cetirizine
+303,337,75.0,Female,"confusion, joint pain",Months,Dengue,"Paracetamol, Fluids"
+304,338,36.0,Other,"chest pain, nausea",3 days,Indigestion,"Antacid, ORS"
+305,339,19.0,Other,"rash, cough, confusion, nausea",2 weeks,Alzheimer,Donepezil
+306,340,18.0,Male,"sweating, headache, fever, rash",Months,Allergy,Cetirizine
+307,341,57.0,Female,"vomiting, thirst, stomach pain",2 days,Diabetes,Metformin
+308,342,44.0,Other,"body pain, chest pain, high sugar, sore throat",Months,Allergy,Cetirizine
+309,343,8.0,Other,"rash, itchy eyes, high sugar",5 days,Chikungunya,Paracetamol
+310,344,58.0,Female,"headache, vomiting",5 days,Cold,"Cough Syrup, Antihistamine"
+311,345,88.0,Other,"itchy eyes, sneezing, sweating",4 days,Flu,"Paracetamol, Cough Syrup"
+312,346,59.0,Female,"itchy eyes, forgetfulness, sweating",3 days,Indigestion,"Antacid, ORS"
+313,347,27.0,Male,"nausea, itchy eyes, headache",2 days,Heart Attack,"Aspirin, Nitroglycerin"
+314,348,47.0,Other,"fatigue, fever, itchy eyes",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+315,349,78.0,Female,"fatigue, chest pain",1 day,Food Poisoning,"ORS, Domperidone"
+316,350,79.0,Female,"itchy eyes, joint pain, rash, body pain",2 weeks,Food Poisoning,"ORS, Domperidone"
+317,351,26.0,Male,"chest pain, rash",1 hour,Food Poisoning,"ORS, Domperidone"
+318,352,51.0,Male,"chest pain, stomach pain",1 day,Allergy,Cetirizine
+319,353,23.0,Female,"high sugar, fatigue, chest pain, confusion",Months,Indigestion,"Antacid, ORS"
+320,354,43.0,Male,"vomiting, cough",4 days,Flu,"Paracetamol, Cough Syrup"
+321,355,82.0,Other,"sneezing, itchy eyes, fever",2 days,Chikungunya,Paracetamol
+322,356,74.0,Female,"fever, headache",1 day,Flu,"Paracetamol, Cough Syrup"
+323,357,27.0,Female,"thirst, high sugar",5 days,Chikungunya,Paracetamol
+324,358,43.0,Female,"itchy eyes, sneezing, body pain, chest pain",1 hour,Allergy,Cetirizine
+325,359,30.0,Male,"confusion, headache, high sugar",1 hour,Indigestion,"Antacid, ORS"
+326,360,72.0,Other,"itchy eyes, fever, chest pain, sweating",1 week,Dengue,"Paracetamol, Fluids"
+327,361,73.0,Female,"stomach pain, chest pain, sneezing, fatigue",5 days,Allergy,Cetirizine
+328,362,43.0,Other,"vomiting, body pain",1 hour,Chikungunya,Paracetamol
+329,363,10.0,Male,"itchy eyes, joint pain, chest pain, vomiting",5 days,Alzheimer,Donepezil
+330,364,15.0,Male,"confusion, forgetfulness, sore throat",2 days,Cold,"Cough Syrup, Antihistamine"
+331,365,54.0,Female,"high sugar, stomach pain, rash, sweating",1 week,Indigestion,"Antacid, ORS"
+332,366,32.0,Female,"cough, forgetfulness, fatigue, vomiting",3 days,Allergy,Cetirizine
+333,367,67.0,Female,"cough, headache, sweating",5 days,Chikungunya,Paracetamol
+334,368,3.0,Other,"cough, sweating",1 week,Dengue,"Paracetamol, Fluids"
+335,369,83.0,Female,"joint pain, fatigue",2 weeks,Food Poisoning,"ORS, Domperidone"
+336,370,69.0,Male,"rash, stomach pain, headache",2 weeks,Indigestion,"Antacid, ORS"
+337,372,55.0,Female,"forgetfulness, fatigue, headache, fever",Months,Chikungunya,Paracetamol
+338,373,16.0,Other,"fatigue, joint pain, stomach pain, headache",5 days,Food Poisoning,"ORS, Domperidone"
+339,374,24.0,Female,"fever, itchy eyes, stomach pain, rash",2 days,Cold,"Cough Syrup, Antihistamine"
+340,375,62.0,Female,"vomiting, chest pain, sneezing",1 week,Dengue,"Paracetamol, Fluids"
+341,376,72.0,Female,"sweating, chest pain, joint pain, forgetfulness",unknown Duration,Cold,"Cough Syrup, Antihistamine"
+342,377,6.0,Male,"cough, stomach pain",1 day,Flu,"Paracetamol, Cough Syrup"
+343,378,34.0,Other,"fever, chest pain, vomiting",Months,Chikungunya,Paracetamol
+344,379,17.0,Other,"stomach pain, headache, fatigue",2 days,Dengue,"Paracetamol, Fluids"
+345,381,59.0,Female,"rash, fever, forgetfulness",2 days,Alzheimer,Donepezil
+346,383,20.0,Male,"fatigue, headache, chest pain, rash",1 week,Indigestion,"Antacid, ORS"
+347,384,66.0,Female,"vomiting, fever, sneezing, thirst",1 week,Chikungunya,Paracetamol
+348,385,8.0,Other,"body pain, headache",Months,Indigestion,"Antacid, ORS"
+349,386,47.0,Male,"itchy eyes, rash",1 hour,Allergy,Cetirizine
+350,387,61.0,Female,"joint pain, forgetfulness",2 weeks,Indigestion,"Antacid, ORS"
+351,388,12.0,Male,"itchy eyes, vomiting",1 day,Alzheimer,Donepezil
+352,389,54.0,Female,"body pain, stomach pain, joint pain",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+353,390,52.0,Female,"headache, forgetfulness",unknown Duration,Dengue,"Paracetamol, Fluids"
+354,392,84.0,Other,"sneezing, cough",1 hour,Indigestion,"Antacid, ORS"
+355,393,9.0,Other,"vomiting, confusion",1 week,Flu,"Paracetamol, Cough Syrup"
+356,394,31.0,Female,"thirst, forgetfulness",4 days,Chikungunya,Paracetamol
+357,395,2.0,Female,"fever, chest pain, stomach pain, high sugar",5 days,Chikungunya,Paracetamol
+358,396,83.0,Female,"sneezing, cough, nausea, stomach pain",2 weeks,Flu,"Paracetamol, Cough Syrup"
+359,397,72.0,Female,"forgetfulness, itchy eyes, sweating, confusion",2 weeks,Indigestion,"Antacid, ORS"
+360,398,88.0,Female,"confusion, stomach pain, headache",2 days,Chikungunya,Paracetamol
+361,399,60.0,Female,"high sugar, confusion, vomiting",2 weeks,Indigestion,"Antacid, ORS"
+362,400,48.0,Male,"sweating, vomiting",unknown Duration,Heart Attack,"Aspirin, Nitroglycerin"
+363,401,22.0,Other,"itchy eyes, vomiting",5 days,Indigestion,"Antacid, ORS"
+364,402,28.0,Other,"confusion, sneezing",2 days,Food Poisoning,"ORS, Domperidone"
+365,403,64.0,Male,"fatigue, vomiting, cough",3 days,Cold,"Cough Syrup, Antihistamine"
+366,404,78.0,Male,"fatigue, confusion, itchy eyes",4 days,Food Poisoning,"ORS, Domperidone"
+367,405,42.0,Other,"high sugar, headache, body pain, rash",2 days,Indigestion,"Antacid, ORS"
+368,407,47.0,Other,"nausea, thirst, sneezing",1 hour,Alzheimer,Donepezil
+369,408,63.0,Female,"stomach pain, forgetfulness",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+370,409,74.0,Other,"high sugar, vomiting, nausea, confusion",1 hour,Flu,"Paracetamol, Cough Syrup"
+371,410,24.0,Male,"cough, chest pain, fever, vomiting",Months,Indigestion,"Antacid, ORS"
+372,413,66.0,Female,"cough, body pain",4 days,Diabetes,Metformin
+373,414,87.0,Female,"cough, nausea",1 day,Flu,"Paracetamol, Cough Syrup"
+374,415,33.0,Female,"nausea, confusion, headache",1 day,Chikungunya,Paracetamol
+375,416,43.0,Other,"rash, thirst",1 hour,Allergy,Cetirizine
+376,417,30.0,Female,"sore throat, cough, nausea",3 days,Allergy,Cetirizine
+377,418,36.0,Male,"fever, forgetfulness, headache, sore throat",2 weeks,Cold,"Cough Syrup, Antihistamine"
+378,419,83.0,Other,"thirst, itchy eyes",5 days,Food Poisoning,"ORS, Domperidone"
+379,420,39.0,Other,"fatigue, headache, thirst, cough",5 days,Heart Attack,"Aspirin, Nitroglycerin"
+380,421,55.0,Male,"chest pain, stomach pain, sneezing",Months,Indigestion,"Antacid, ORS"
+381,422,81.0,Female,"body pain, fatigue, chest pain",2 days,Heart Attack,"Aspirin, Nitroglycerin"
+382,423,88.0,Other,"joint pain, fever",1 week,Food Poisoning,"ORS, Domperidone"
+383,424,38.0,Other,"vomiting, chest pain, rash, fever",1 day,Dengue,"Paracetamol, Fluids"
+384,425,57.0,Other,"body pain, thirst",2 weeks,Food Poisoning,"ORS, Domperidone"
+385,426,8.0,Female,"rash, thirst, joint pain, stomach pain",1 week,Alzheimer,Donepezil
+386,427,47.0,Other,"vomiting, high sugar",2 weeks,Allergy,Cetirizine
+387,428,15.0,Other,"headache, joint pain, fever",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+388,429,3.0,Other,"headache, fatigue, body pain",unknown Duration,Heart Attack,"Aspirin, Nitroglycerin"
+389,430,10.0,Other,"cough, vomiting",3 days,Flu,"Paracetamol, Cough Syrup"
+390,431,10.0,Female,"fatigue, stomach pain, sweating",1 week,Dengue,"Paracetamol, Fluids"
+391,432,40.0,Male,"body pain, joint pain, vomiting, sneezing",1 hour,Chikungunya,Paracetamol
+392,433,43.0,Other,"forgetfulness, fatigue",3 days,Alzheimer,Donepezil
+393,434,17.0,Other,"nausea, sore throat",2 days,Heart Attack,"Aspirin, Nitroglycerin"
+394,435,60.0,Male,"confusion, fatigue, itchy eyes",5 days,Diabetes,Metformin
+395,436,16.0,Male,"forgetfulness, joint pain, body pain",2 days,Allergy,Cetirizine
+396,437,55.0,Male,"itchy eyes, forgetfulness, sweating, rash",1 hour,Food Poisoning,"ORS, Domperidone"
+397,438,32.0,Female,"nausea, rash, chest pain, itchy eyes",1 hour,Cold,"Cough Syrup, Antihistamine"
+398,439,40.0,Female,"sneezing, headache, vomiting",2 weeks,Allergy,Cetirizine
+399,440,70.0,Female,"stomach pain, chest pain",5 days,Diabetes,Metformin
+400,441,36.0,Male,"high sugar, rash, confusion",Months,Heart Attack,"Aspirin, Nitroglycerin"
+401,442,66.0,Female,"joint pain, sore throat",1 day,Allergy,Cetirizine
+402,443,40.0,Male,"sneezing, cough",1 week,Chikungunya,Paracetamol
+403,445,43.0,Male,"itchy eyes, body pain, sweating, joint pain",Months,Alzheimer,Donepezil
+404,446,2.0,Male,"fever, chest pain, rash",2 days,Food Poisoning,"ORS, Domperidone"
+405,447,7.0,Other,"itchy eyes, fever, fatigue, joint pain",5 days,Alzheimer,Donepezil
+406,448,86.0,Other,"sweating, confusion, sneezing, headache",4 days,Food Poisoning,"ORS, Domperidone"
+407,449,26.0,Male,"sore throat, vomiting, rash, sweating",3 days,Chikungunya,Paracetamol
+408,450,37.0,Female,"fatigue, chest pain, nausea",3 days,Cold,"Cough Syrup, Antihistamine"
+409,451,65.0,Male,"thirst, sore throat",1 week,Indigestion,"Antacid, ORS"
+410,452,15.0,Other,"confusion, sore throat, thirst",4 days,Indigestion,"Antacid, ORS"
+411,453,26.0,Female,"itchy eyes, chest pain, forgetfulness, sore throat",1 day,Diabetes,Metformin
+412,454,77.0,Female,"headache, body pain, high sugar, thirst",4 days,Heart Attack,"Aspirin, Nitroglycerin"
+413,455,86.0,Other,"itchy eyes, forgetfulness",5 days,Diabetes,Metformin
+414,456,5.0,Female,"nausea, sneezing",Months,Cold,"Cough Syrup, Antihistamine"
+415,457,18.0,Other,"stomach pain, rash, high sugar",1 day,Cold,"Cough Syrup, Antihistamine"
+416,458,48.0,Male,"body pain, nausea",1 week,Food Poisoning,"ORS, Domperidone"
+417,460,71.0,Female,"vomiting, sneezing, fatigue, sore throat",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+418,461,78.0,Male,"fatigue, nausea, sweating",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+419,462,37.0,Female,"high sugar, sweating",1 week,Alzheimer,Donepezil
+420,463,25.0,Female,"sweating, joint pain",1 hour,Diabetes,Metformin
+421,464,54.0,Other,"confusion, nausea, sore throat",2 weeks,Indigestion,"Antacid, ORS"
+422,465,44.0,Female,"headache, thirst, rash",1 week,Food Poisoning,"ORS, Domperidone"
+423,466,4.0,Male,"sweating, joint pain, confusion",1 hour,Indigestion,"Antacid, ORS"
+424,467,18.0,Female,"joint pain, sweating, vomiting, itchy eyes",1 day,Food Poisoning,"ORS, Domperidone"
+425,468,15.0,Male,"nausea, sweating, thirst",3 days,Flu,"Paracetamol, Cough Syrup"
+426,469,85.0,Male,"sore throat, forgetfulness, nausea",2 days,Chikungunya,Paracetamol
+427,470,43.0,Other,"fever, high sugar, body pain, vomiting",Months,Cold,"Cough Syrup, Antihistamine"
+428,471,2.0,Male,"vomiting, forgetfulness, headache, chest pain",Months,Flu,"Paracetamol, Cough Syrup"
+429,472,62.0,Male,"thirst, chest pain, itchy eyes, fever",3 days,Food Poisoning,"ORS, Domperidone"
+430,474,45.0,Other,"fatigue, itchy eyes, chest pain",1 week,Diabetes,Metformin
+431,475,77.0,Male,"fever, cough",1 day,Chikungunya,Paracetamol
+432,476,6.0,Male,"nausea, cough, headache, confusion",2 weeks,Diabetes,Metformin
+433,477,24.0,Other,"joint pain, confusion, stomach pain, vomiting",2 days,Food Poisoning,"ORS, Domperidone"
+434,478,1.0,Female,"sweating, nausea, forgetfulness, itchy eyes",2 weeks,Indigestion,"Antacid, ORS"
+435,479,83.0,Other,"sore throat, cough, stomach pain",2 days,Cold,"Cough Syrup, Antihistamine"
+436,481,82.0,Female,"confusion, fatigue, headache",Months,Food Poisoning,"ORS, Domperidone"
+437,482,87.0,Other,"nausea, stomach pain, rash",4 days,Indigestion,"Antacid, ORS"
+438,483,45.0,Other,"fatigue, fever",2 days,Indigestion,"Antacid, ORS"
+439,484,73.0,Female,"sweating, cough",Months,Dengue,"Paracetamol, Fluids"
+440,485,43.0,Other,"chest pain, rash",2 days,Dengue,"Paracetamol, Fluids"
+441,486,12.0,Other,"fatigue, headache, confusion, forgetfulness",unknown Duration,Alzheimer,Donepezil
+442,487,21.0,Male,"sneezing, fatigue, sore throat, body pain",Months,Chikungunya,Paracetamol
+443,488,17.0,Female,"confusion, forgetfulness",1 day,Diabetes,Metformin
+444,489,19.0,Male,"stomach pain, sneezing, body pain",5 days,Alzheimer,Donepezil
+445,490,14.0,Other,"rash, itchy eyes, cough",2 days,Flu,"Paracetamol, Cough Syrup"
+446,491,14.0,Other,"cough, vomiting, fever, stomach pain",2 days,Flu,"Paracetamol, Cough Syrup"
+447,492,43.0,Other,"cough, headache, joint pain, fever",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+448,493,55.0,Male,"fever, rash",3 days,Allergy,Cetirizine
+449,494,13.0,Other,"body pain, fever",Months,Alzheimer,Donepezil
+450,495,57.0,Female,"itchy eyes, sore throat, nausea",5 days,Alzheimer,Donepezil
+451,496,21.0,Other,"itchy eyes, body pain",1 week,Chikungunya,Paracetamol
+452,499,39.0,Female,"rash, forgetfulness, stomach pain, vomiting",3 days,Alzheimer,Donepezil
+453,500,5.0,Female,"sore throat, sneezing, itchy eyes",1 week,Alzheimer,Donepezil
+454,501,67.0,Male,"stomach pain, sore throat",5 days,Indigestion,"Antacid, ORS"
+455,502,9.0,Female,"chest pain, forgetfulness, stomach pain",4 days,Flu,"Paracetamol, Cough Syrup"
+456,503,10.0,Male,"fatigue, vomiting, itchy eyes, cough",4 days,Food Poisoning,"ORS, Domperidone"
+457,504,46.0,Female,"rash, sweating",5 days,Alzheimer,Donepezil
+458,505,43.0,Other,"nausea, joint pain, thirst, sweating",1 day,Flu,"Paracetamol, Cough Syrup"
+459,506,19.0,Other,"sore throat, chest pain",1 hour,Food Poisoning,"ORS, Domperidone"
+460,507,44.0,Male,"cough, sweating, stomach pain, forgetfulness",Months,Indigestion,"Antacid, ORS"
+461,508,30.0,Female,"itchy eyes, chest pain, thirst",2 days,Allergy,Cetirizine
+462,510,13.0,Other,"nausea, rash, itchy eyes",4 days,Cold,"Cough Syrup, Antihistamine"
+463,512,9.0,Female,"rash, thirst, high sugar, joint pain",1 hour,Flu,"Paracetamol, Cough Syrup"
+464,513,43.0,Other,"forgetfulness, sore throat, body pain, headache",2 weeks,Indigestion,"Antacid, ORS"
+465,514,22.0,Other,"vomiting, sneezing, forgetfulness",3 days,Food Poisoning,"ORS, Domperidone"
+466,515,80.0,Female,"sneezing, chest pain",unknown Duration,Allergy,Cetirizine
+467,516,34.0,Female,"chest pain, sneezing, thirst, headache",3 days,Chikungunya,Paracetamol
+468,517,59.0,Male,"thirst, nausea",5 days,Cold,"Cough Syrup, Antihistamine"
+469,518,52.0,Male,"sweating, vomiting",4 days,Dengue,"Paracetamol, Fluids"
+470,519,74.0,Male,"chest pain, stomach pain, vomiting",3 days,Indigestion,"Antacid, ORS"
+471,520,46.0,Other,"forgetfulness, sore throat, vomiting, confusion",2 weeks,Chikungunya,Paracetamol
+472,521,11.0,Other,"forgetfulness, vomiting, joint pain",unknown Duration,Chikungunya,Paracetamol
+473,523,5.0,Female,"fatigue, high sugar",2 weeks,Chikungunya,Paracetamol
+474,524,33.0,Other,"chest pain, itchy eyes",4 days,Indigestion,"Antacid, ORS"
+475,525,63.0,Male,"body pain, stomach pain, forgetfulness, sore throat",1 hour,Chikungunya,Paracetamol
+476,527,46.0,Other,"headache, body pain, itchy eyes, stomach pain",1 week,Flu,"Paracetamol, Cough Syrup"
+477,528,5.0,Male,"fatigue, joint pain, confusion, stomach pain",4 days,Flu,"Paracetamol, Cough Syrup"
+478,529,86.0,Male,"high sugar, vomiting, headache, chest pain",Months,Flu,"Paracetamol, Cough Syrup"
+479,530,11.0,Female,"forgetfulness, headache, sneezing",2 days,Flu,"Paracetamol, Cough Syrup"
+480,531,19.0,Other,"chest pain, joint pain, confusion",2 days,Flu,"Paracetamol, Cough Syrup"
+481,532,17.0,Other,"fever, sweating, vomiting, high sugar",2 days,Indigestion,"Antacid, ORS"
+482,533,30.0,Male,"rash, fever, high sugar",1 week,Indigestion,"Antacid, ORS"
+483,534,43.0,Male,"high sugar, sweating, vomiting",Months,Cold,"Cough Syrup, Antihistamine"
+484,535,43.0,Male,"nausea, headache",1 day,Dengue,"Paracetamol, Fluids"
+485,536,56.0,Male,"headache, cough, high sugar, joint pain",5 days,Flu,"Paracetamol, Cough Syrup"
+486,537,58.0,Other,"forgetfulness, fever, sneezing",4 days,Flu,"Paracetamol, Cough Syrup"
+487,538,33.0,Other,"nausea, forgetfulness, rash, confusion",1 week,Chikungunya,Paracetamol
+488,539,69.0,Other,"chest pain, vomiting",2 weeks,Food Poisoning,"ORS, Domperidone"
+489,540,83.0,Male,"joint pain, fatigue, body pain, confusion",3 days,Alzheimer,Donepezil
+490,541,66.0,Other,"nausea, fever, high sugar",5 days,Alzheimer,Donepezil
+491,542,34.0,Other,"stomach pain, rash, fever",2 weeks,Dengue,"Paracetamol, Fluids"
+492,543,58.0,Male,"stomach pain, thirst",4 days,Alzheimer,Donepezil
+493,544,84.0,Female,"thirst, chest pain, fatigue",2 days,Food Poisoning,"ORS, Domperidone"
+494,545,85.0,Male,"vomiting, sore throat, itchy eyes, chest pain",3 days,Alzheimer,Donepezil
+495,546,70.0,Male,"rash, fever, forgetfulness, cough",1 week,Cold,"Cough Syrup, Antihistamine"
+496,547,2.0,Other,"confusion, chest pain",1 hour,Cold,"Cough Syrup, Antihistamine"
+497,548,88.0,Female,"forgetfulness, high sugar",1 day,Flu,"Paracetamol, Cough Syrup"
+498,549,57.0,Male,"forgetfulness, stomach pain, vomiting, rash",2 days,Allergy,Cetirizine
+499,550,43.0,Male,"confusion, chest pain, stomach pain",1 day,Allergy,Cetirizine
+500,551,29.0,Male,"sore throat, high sugar, sneezing, body pain",4 days,Food Poisoning,"ORS, Domperidone"
+501,552,82.0,Female,"thirst, itchy eyes",1 day,Food Poisoning,"ORS, Domperidone"
+502,553,70.0,Male,"rash, itchy eyes, confusion, sneezing",Months,Diabetes,Metformin
+503,554,47.0,Other,"sweating, confusion, sneezing, high sugar",Months,Diabetes,Metformin
+504,555,11.0,Male,"sweating, itchy eyes, sore throat",1 week,Diabetes,Metformin
+505,556,6.0,Male,"vomiting, cough, thirst, itchy eyes",Months,Allergy,Cetirizine
+506,557,14.0,Other,"joint pain, vomiting, nausea",2 weeks,Heart Attack,"Aspirin, Nitroglycerin"
+507,558,52.0,Male,"itchy eyes, nausea, sweating, fever",unknown Duration,Chikungunya,Paracetamol
+508,559,73.0,Female,"sneezing, thirst, vomiting",1 day,Allergy,Cetirizine
+509,560,49.0,Other,"sore throat, joint pain, cough, rash",1 day,Allergy,Cetirizine
+510,561,88.0,Other,"body pain, thirst",1 day,Allergy,Cetirizine
+511,562,55.0,Male,"sneezing, nausea, joint pain",Months,Alzheimer,Donepezil
+512,563,67.0,Male,"high sugar, rash, headache",1 hour,Cold,"Cough Syrup, Antihistamine"
+513,564,6.0,Female,"rash, body pain",5 days,Dengue,"Paracetamol, Fluids"
+514,565,20.0,Male,"headache, sneezing, forgetfulness, high sugar",1 week,Food Poisoning,"ORS, Domperidone"
+515,566,72.0,Male,"vomiting, thirst, fever, confusion",Months,Flu,"Paracetamol, Cough Syrup"
+516,567,43.0,Female,"forgetfulness, itchy eyes, thirst, sweating",5 days,Chikungunya,Paracetamol
+517,568,58.0,Other,"rash, sore throat, cough, sneezing",3 days,Cold,"Cough Syrup, Antihistamine"
+518,569,12.0,Other,"itchy eyes, headache, chest pain, body pain",Months,Heart Attack,"Aspirin, Nitroglycerin"
+519,570,43.0,Male,"high sugar, headache, cough",2 days,Heart Attack,"Aspirin, Nitroglycerin"
+520,571,63.0,Male,"confusion, joint pain",3 days,Indigestion,"Antacid, ORS"
+521,572,49.0,Female,"stomach pain, headache, forgetfulness, vomiting",2 days,Dengue,"Paracetamol, Fluids"
+522,573,45.0,Male,"high sugar, headache, rash, confusion",1 day,Heart Attack,"Aspirin, Nitroglycerin"
+523,574,6.0,Male,"vomiting, joint pain, body pain, cough",1 day,Chikungunya,Paracetamol
+524,575,45.0,Male,"vomiting, sweating",Months,Cold,"Cough Syrup, Antihistamine"
+525,576,65.0,Other,"nausea, thirst, confusion, joint pain",1 hour,Allergy,Cetirizine
+526,577,53.0,Male,"high sugar, thirst, chest pain",1 week,Chikungunya,Paracetamol
+527,578,16.0,Male,"confusion, sweating, body pain, fatigue",Months,Alzheimer,Donepezil
+528,579,30.0,Male,"stomach pain, forgetfulness, sneezing, chest pain",2 days,Chikungunya,Paracetamol
+529,580,45.0,Female,"vomiting, headache",5 days,Allergy,Cetirizine
+530,581,32.0,Other,"stomach pain, nausea, sore throat",2 weeks,Alzheimer,Donepezil
+531,582,50.0,Other,"vomiting, confusion, headache, joint pain",Months,Allergy,Cetirizine
+532,583,9.0,Female,"vomiting, fatigue, nausea",4 days,Cold,"Cough Syrup, Antihistamine"
+533,584,68.0,Other,"sneezing, forgetfulness",3 days,Allergy,Cetirizine
+534,585,2.0,Other,"sore throat, sneezing, itchy eyes, rash",2 weeks,Flu,"Paracetamol, Cough Syrup"
+535,586,32.0,Other,"fever, sneezing",1 day,Dengue,"Paracetamol, Fluids"
+536,587,16.0,Other,"sweating, stomach pain",2 weeks,Cold,"Cough Syrup, Antihistamine"
+537,588,20.0,Female,"rash, confusion, sneezing, itchy eyes",unknown Duration,Food Poisoning,"ORS, Domperidone"
+538,591,67.0,Other,"fatigue, headache, sneezing, rash",2 days,Alzheimer,Donepezil
+539,593,30.0,Other,"sneezing, nausea, stomach pain",unknown Duration,Dengue,"Paracetamol, Fluids"
+540,594,64.0,Female,"forgetfulness, chest pain",1 week,Indigestion,"Antacid, ORS"
+541,595,10.0,Female,"joint pain, sore throat, body pain, forgetfulness",3 days,Chikungunya,Paracetamol
+542,596,74.0,Male,"confusion, rash, sneezing, body pain",3 days,Cold,"Cough Syrup, Antihistamine"
+543,597,58.0,Male,"forgetfulness, cough",1 hour,Diabetes,Metformin
+544,598,46.0,Male,"sweating, forgetfulness, cough, body pain",2 weeks,Diabetes,Metformin
+545,599,28.0,Other,"vomiting, fever, sore throat, nausea",1 day,Cold,"Cough Syrup, Antihistamine"
+546,600,23.0,Female,"thirst, itchy eyes",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+547,601,70.0,Male,"chest pain, fever",unknown Duration,Chikungunya,Paracetamol
+548,602,89.0,Other,"fatigue, nausea, chest pain, confusion",5 days,Dengue,"Paracetamol, Fluids"
+549,603,56.0,Male,"chest pain, joint pain, fatigue",2 weeks,Chikungunya,Paracetamol
+550,604,5.0,Male,"sneezing, sweating, stomach pain",1 week,Heart Attack,"Aspirin, Nitroglycerin"
+551,605,32.0,Female,"body pain, itchy eyes, headache",Months,Dengue,"Paracetamol, Fluids"
+552,606,5.0,Male,"itchy eyes, forgetfulness, fever",5 days,Dengue,"Paracetamol, Fluids"
+553,607,45.0,Male,"sneezing, stomach pain",2 weeks,Food Poisoning,"ORS, Domperidone"
+554,608,86.0,Female,"body pain, joint pain, confusion, stomach pain",1 day,Heart Attack,"Aspirin, Nitroglycerin"
+555,609,48.0,Other,"body pain, vomiting",2 days,Diabetes,Metformin
+556,611,10.0,Male,"sneezing, sore throat",2 weeks,Chikungunya,Paracetamol
+557,612,67.0,Female,"headache, joint pain, fever",2 weeks,Chikungunya,Paracetamol
+558,613,4.0,Other,"confusion, itchy eyes, sweating",1 day,Food Poisoning,"ORS, Domperidone"
+559,615,2.0,Female,"fatigue, rash, confusion",2 weeks,Diabetes,Metformin
+560,616,75.0,Other,"sneezing, fatigue, vomiting",4 days,Chikungunya,Paracetamol
+561,617,29.0,Female,"joint pain, stomach pain",1 day,Heart Attack,"Aspirin, Nitroglycerin"
+562,618,3.0,Other,"thirst, vomiting",2 weeks,Diabetes,Metformin
+563,619,61.0,Other,"joint pain, sweating",1 hour,Chikungunya,Paracetamol
+564,620,34.0,Male,"rash, sneezing, chest pain",3 days,Cold,"Cough Syrup, Antihistamine"
+565,621,69.0,Other,"headache, sweating, high sugar, chest pain",3 days,Heart Attack,"Aspirin, Nitroglycerin"
+566,622,43.0,Male,"itchy eyes, fatigue, high sugar, fever",1 hour,Flu,"Paracetamol, Cough Syrup"
+567,624,26.0,Male,"cough, joint pain, high sugar",5 days,Diabetes,Metformin
+568,625,24.0,Other,"joint pain, fever, fatigue, cough",1 hour,Flu,"Paracetamol, Cough Syrup"
+569,626,4.0,Other,"forgetfulness, chest pain, itchy eyes",5 days,Alzheimer,Donepezil
+570,627,18.0,Female,"chest pain, cough, sweating",1 week,Flu,"Paracetamol, Cough Syrup"
+571,628,64.0,Male,"fever, stomach pain, rash",1 day,Allergy,Cetirizine
+572,629,66.0,Male,"thirst, sneezing, forgetfulness, sweating",1 day,Food Poisoning,"ORS, Domperidone"
+573,630,19.0,Female,"sweating, sneezing",4 days,Alzheimer,Donepezil
+574,631,19.0,Female,"cough, sweating, fatigue, fever",1 day,Flu,"Paracetamol, Cough Syrup"
+575,632,43.0,Other,"high sugar, stomach pain, joint pain, sneezing",1 week,Dengue,"Paracetamol, Fluids"
+576,633,41.0,Female,"forgetfulness, cough, rash, itchy eyes",3 days,Allergy,Cetirizine
+577,634,43.0,Other,"sneezing, sore throat",4 days,Dengue,"Paracetamol, Fluids"
+578,635,87.0,Male,"chest pain, headache",1 day,Cold,"Cough Syrup, Antihistamine"
+579,636,42.0,Male,"fatigue, body pain",1 hour,Heart Attack,"Aspirin, Nitroglycerin"
+580,637,8.0,Other,"vomiting, stomach pain",1 day,Flu,"Paracetamol, Cough Syrup"
+581,638,36.0,Female,"fever, sweating, forgetfulness",Months,Alzheimer,Donepezil
+582,639,43.0,Male,"sweating, stomach pain, chest pain, headache",1 day,Cold,"Cough Syrup, Antihistamine"
+583,640,21.0,Other,"high sugar, sweating, fatigue",2 weeks,Diabetes,Metformin
+584,641,72.0,Female,"nausea, body pain",Months,Indigestion,"Antacid, ORS"
+585,642,87.0,Female,"confusion, chest pain, sweating, headache",5 days,Indigestion,"Antacid, ORS"
+586,643,49.0,Male,"rash, joint pain",4 days,Indigestion,"Antacid, ORS"
+587,644,15.0,Other,"confusion, chest pain, nausea",5 days,Chikungunya,Paracetamol
+588,645,2.0,Female,"fatigue, sore throat",Months,Cold,"Cough Syrup, Antihistamine"
+589,646,81.0,Male,"headache, joint pain",2 days,Diabetes,Metformin
+590,647,17.0,Male,"stomach pain, cough, body pain",3 days,Indigestion,"Antacid, ORS"
+591,648,41.0,Female,"rash, itchy eyes, sneezing, stomach pain",1 hour,Indigestion,"Antacid, ORS"
+592,649,41.0,Other,"body pain, nausea, sweating, stomach pain",2 weeks,Chikungunya,Paracetamol
